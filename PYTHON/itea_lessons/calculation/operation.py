@@ -1,10 +1,10 @@
-from function import E
+from function import add, share, sub, multiply
 
 
-class C:
-    OPERATION = {
-        "+" : E.add,
-        "-" : E.sub,
-        "/" : E.share,
-        "*" : E.multiply
+
+OPERATION = {
+    "+" : add,
+    "-" : sub,
+    "/" : share,
+    "*" : multiply
     }
